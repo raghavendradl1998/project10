@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/project10/static/css/main.d1714286.css",
-    "main.js": "/project10/static/js/main.aa148cc0.js",
-    "static/media/back.webp": "/project10/static/media/back.93d3f802b480eeabae07.webp",
-    "static/media/awrapper.webp": "/project10/static/media/awrapper.031ce77a398171427673.webp",
-    "static/media/bg.webp": "/project10/static/media/bg.baa1024a4ae092566a75.webp",
+    "main.css": "/project10/static/css/main.caade73c.css",
+    "main.js": "/project10/static/js/main.435eb567.js",
+    "static/js/787.909be98e.chunk.js": "/project10/static/js/787.909be98e.chunk.js",
+    "static/media/Raghavendra updatedresumee-converted.pdf": "/project10/static/media/Raghavendra updatedresumee-converted.93d5223f5315968cdfa3.pdf",
+    "static/media/raghu.png.jpg": "/project10/static/media/raghu.png.7a5d369812a6093dc83c.jpg",
+    "static/media/calculator.png": "/project10/static/media/calculator.81f67b0386c0c059219c.png",
+    "static/media/tic-toc.png": "/project10/static/media/tic-toc.cfe071e7eb5d6468b40f.png",
     "index.html": "/project10/index.html",
-    "main.d1714286.css.map": "/project10/static/css/main.d1714286.css.map",
-    "main.aa148cc0.js.map": "/project10/static/js/main.aa148cc0.js.map"
+    "main.caade73c.css.map": "/project10/static/css/main.caade73c.css.map",
+    "main.435eb567.js.map": "/project10/static/js/main.435eb567.js.map",
+    "787.909be98e.chunk.js.map": "/project10/static/js/787.909be98e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1714286.css",
-    "static/js/main.aa148cc0.js"
+    "static/css/main.caade73c.css",
+    "static/js/main.435eb567.js"
   ]
 }
