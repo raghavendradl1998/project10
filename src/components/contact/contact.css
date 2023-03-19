@@ -1,55 +1,69 @@
-.contacts iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
+.container.contact__container{
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
 }
-.contacts .right {
-  padding: 50px;
-}
-.contacts h1 {
-  font-size: 30px;
-  font-weight: 400;
-}
-.contacts p {
-  color: grey;
-}
-.contacts .items {
-  margin: 30px 0;
-}
-.contacts .box p {
-  font-size: 17px;
-  margin-top: 10px;
-}
-.contacts textarea,
-.contacts input {
-  width: 100%;
-  padding: 15px;
-  margin-bottom: 15px;
-  outline: none;
-  border: 1px solid grey;
-}
-form .flexSB input:nth-child(1) {
-  margin-right: 10px;
-}
-.contacts h3 {
-  margin-top: 20px;
-  font-weight: 500;
-  margin-bottom: 10px;
-}
-.contacts span {
-  color: #1eb2a6;
-  font-weight: 600;
-  font-size: 15px;
-  word-spacing: 5px;
-}
-@media screen and (max-width: 768px) {
-  .contacts .container {
+
+.contact_options{
+    display: flex;
     flex-direction: column;
-  }
-  .contacts iframe {
-    height: 50vh;
-  }
-  .contacts .row {
+    gap: 1.2rem;
+}
+
+.contact__option{
+    background:var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border:1px solid transparent;
+    transition: var(--transition);
+}
+
+.contact__option:hover{
+    background:transparent;
+    border-color: var(--color-primary-variant);
+}
+
+.contact__option-icon{
+    font-size: 1.5rem;
+    margin-bottom:0.5rem ;
+}
+
+.contact__option a{
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 0.8rem;
+}
+
+
+/* form */
+form{
+    display: flex;
+    flex-direction: column;
+    gap:1.2rem;
+}
+
+input,textarea{
     width: 100%;
-  }
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border:2px solid var(--color-primary-variant);
+    resize: none;
+    color:var(--color-white);
+}
+
+@media screen and (max-width:1024px) {
+    .container.contact__container{
+        grid-template-columns: 1fr;
+        gap:2rem;
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+    .container.contact__container{
+        width: var(--container-width-sm )
+    }
 }
